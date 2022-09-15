@@ -1,0 +1,39 @@
+.container {
+    padding: 5vh;
+    height: 100vh;
+   
+}
+.main {
+    margin-top: 20vh;
+    margin-left: 7vh;
+    text-align: center;
+    background-color: pink;
+}
+#lusername, #username, #pwd, #password  {
+    margin-left: 12vh;
+    font-size: 2vh;
+    padding: 1vh;
+    margin-bottom: 2vh;
+    width: 20rem;
+}
+#btn {
+    width: 21rem;
+    font-size: 2rem;
+    margin-left: 12vh;
+    margin-bottom: 1rem;
+    background-color: blue;
+    
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3rem;
+    font-size: 2rem;
+  }
+
+
+#username::selection {
+    border: 3px solid white;
+}

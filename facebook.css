@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+.main-div {
+    display: flex;
+    height: 700px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-div left-div {
+    background-color: lightblue
+    width: 800px;
+}
+
+#heading1 {
+    margin-top: 300px;
+    margin-left: 25px;
+    font-size: 90px;
+    color: blue;
+    font-weight: bold;
+}
+
+#paragraph {
+    font-size: 1.5rem;
+    margin-left: -230px;
+}
+
+.main-div right-div {
+    width: 50%;
+    background-color: yellowgreen;
+}
+
+#fpassword label {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 1rem;
+}
+
+.main {
+
+    padding-top: 3rem;
+    width: 500px;
+    margin-top: 20vh;
+    margin-left: 3vh;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+
+.line {
+    margin-left: 50px;
+    width: 400px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid yellowgreen
+}
+
+#lusername, #username, #pwd, #password  {
+    margin-left: 10vh;
+    margin-right: 20vh;
+    font-size: 2vh;
+    padding: 1vh;
+    margin-bottom: 2vh;
+    width: 20rem;
+    border: 3px solid pink;
+}
+#btn {
+    width: 21rem;
+    font-size: 2rem;
+    color: white;
+    margin-left: 3vh;
+    margin-bottom: 1rem;
+    background-color: blue;
+    border-radius: 3px solid black;
+    
+}
+
+#btn1 {
+    width: 10rem;
+    font-size: 1rem;
+    color: aqua;
+    margin-left: 2vh;
+    margin-bottom: 1rem;
+    background-color: green;
+    height: 40px;
+    border-radius: 9px solid green;
+    margin-top: 1rem;
+}
+
+.create {
+    background-color: red;
+    margin-right: 3rem;
+}
